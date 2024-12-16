@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-9-B</title>
+	<style type="text/css">
+		.div1{
+			animation-name: custom-a;
+			animation-duration: 10s;
+			height: 200px;
+			width: 200px;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		@keyframes custom-a{
+			0%{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background-color: purple;
+			}
+			25%{
+				position: absolute;
+				top: 700px;
+				left: 0px;
+				background-color: indigo;
+			}
+			50%{
+				position: absolute;
+				top: 0px;
+				left: 700px;
+				background-color: blue;
+			}
+			75%{
+				position: absolute;
+				top: 700px;
+				left: 700px;
+				background-color: green;
+			}
+			100%{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background-color: yellow;
+			}
+		}
+			.div2{
+				animation-name: custom-b;
+				animation-duration: 10s;
+				height: 200px;
+				width: 200px;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+			@keyframes custom-b{
+				0%{
+				position: absolute;
+				top: 700px;
+				left: 700px;
+				background-color: orange;
+			}
+			25%{
+				position: absolute;
+				top: 0px;
+				left: 700px;
+				background-color: red;
+			}
+			50%{
+				position: absolute;
+				top: 700px;
+				left: 0px;
+				background-color: turquoise;
+			}
+			75%{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background-color: crimson;
+			}
+			100%{
+				position: absolute;
+				top: 700px;
+				left: 700px;
+				background-color: slateblue;
+			}
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="div1"></div>
+<div class="div2"></div>
+</body>
+</html>

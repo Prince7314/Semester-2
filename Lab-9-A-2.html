@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-9-A-2</title>
+	<style type="text/css">
+		div{
+			animation-name: square_move;
+			animation-duration: 10s;
+			height: 100px;
+			width: 100px;
+			background-color: blue;
+		}
+		@keyframes square_move{
+			0%{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			25%{
+				position: absolute;
+				top: 500px;
+				left: 0px;
+			}
+			50%{
+				position: absolute;
+				top: 500px;
+				left: 500px;
+			}
+			75%{
+				position: absolute;
+				top: 0px;
+				left: 500px;
+			}
+			100%{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
